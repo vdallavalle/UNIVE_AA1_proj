@@ -105,7 +105,7 @@ set(${PROJECT_NAME}_HDRS
         ${CMAKE_CURRENT_SOURCE_DIR}/Makeblock/MeHumitureSensor.h
         ${CMAKE_CURRENT_SOURCE_DIR}/Makeblock/MePIRMotionSensor.h
         ${CMAKE_CURRENT_SOURCE_DIR}/Makeblock/MeWifi.h
-        )
+)
 
 ### Additional static libraries to include in the target.
 # set(${PROJECT_NAME}_LIBS)
@@ -126,7 +126,7 @@ link_directories(${CMAKE_CURRENT_SOURCE_DIR}/Makeblock)
 
 #### Additional settings for programmer. From programmers.txt
 # set(${PROJECT_NAME}_PROGRAMMER avrispmkii)
-set(${PROJECT_NAME}_PORT /dev/ttyS6)
+set(${PROJECT_NAME}_PORT /dev/cu.usbserial-1420)
 # set(mega.upload.speed 9600)
 
 ## Verbose build process
